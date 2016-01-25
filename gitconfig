@@ -1,0 +1,16 @@
+[user]
+	email = kursion@gmail.com
+	name = Yves Lange
+[push]
+	default = simple
+
+[alias]
+	st = status
+        df = diff
+	co = checkout
+	ci = commit
+	br = branch
+	undo = git reset --soft HEAD^
+	amend = commit --amend
+	hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+	hist2 = log --graph --all --decorate
